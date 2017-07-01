@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Professor</title>
+    </head>
+
+    <body>
+        <h1>UNIVERSITY DATABASE</h1>
+        <h3><em>CPSC 332 Summer 2017, Team Project</em><br>
+            Thomas Ngo, Danh Pham, Joseph Lozano
+        </h3>
+
+        <form action="http://ecs.fullerton.edu/~cs332a15/">
+            <input type="submit" value="Home">
+        </form>
+        <br><br>
+
+        <form method="post" action="index.php">
+            <fieldset style="width: 250px; text-align: center">
+                <legend>Class Schedule</legend>
+                SSN: <br><input type="text" name="PN" required=""><br><br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </fieldset>
+        </form>
+        <br><br>
+        <form method="post" action="index.php">
+            <fieldset style="width: 250px; text-align: center">
+                <legend>Course Section Grades</legend>
+                COURSE NUMBER:<br><input type="text" name="CN"
+                                                     required=""><br><br>
+                                                     SECTION NUMBER:<br><input type="text" name="SN"
+                                                                                           required=""><br><br>
+                                                                                           <input type="submit" value="Submit">
+                                                                                           <input type="reset" value="Reset">
+            </fieldset>
+        </form>
+
+    </body>
+
+</html>
